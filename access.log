@@ -5,7 +5,7 @@
 \margl1440\margr1440\vieww11520\viewh8400\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-10.0.0.25 - - [24/Jul/2025:07:42:15 -0700] "GET /shop HTTP/1.1" 200 3198 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_0)"
-10.0.0.25 - - [24/Jul/2025:07:42:20 -0700] "GET /shop/cart HTTP/1.1" 200 2189 "http://example.com/shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_0)"
-10.0.0.25 - - [24/Jul/2025:07:43:00 -0700] "POST /checkout HTTP/1.1" 500 0 "http://example.com/shop/cart" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_0)"
+203.0.113.55 - - [24/Jul/2025:06:12:09 -0700] "GET /api/data HTTP/1.1" 200 4821 "-" "curl/7.74.0"
+203.0.113.55 - - [24/Jul/2025:06:12:10 -0700] "GET /api/status HTTP/1.1" 404 720 "-" "curl/7.74.0"
+203.0.113.55 - - [24/Jul/2025:06:12:13 -0700] "GET /favicon.ico HTTP/1.1" 304 0 "-" "curl/7.74.0"
 }
