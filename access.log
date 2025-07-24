@@ -5,7 +5,7 @@
 \margl1440\margr1440\vieww11520\viewh8400\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-203.0.113.55 - - [24/Jul/2025:06:12:09 -0700] "GET /api/data HTTP/1.1" 200 4821 "-" "curl/7.74.0"
-203.0.113.55 - - [24/Jul/2025:06:12:10 -0700] "GET /api/status HTTP/1.1" 404 720 "-" "curl/7.74.0"
-203.0.113.55 - - [24/Jul/2025:06:12:13 -0700] "GET /favicon.ico HTTP/1.1" 304 0 "-" "curl/7.74.0"
+192.168.1.10 - - [24/Jul/2025:08:13:51 -0700] "GET /index.html HTTP/1.1" 200 2547 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+192.168.1.10 - - [24/Jul/2025:08:14:00 -0700] "GET /images/logo.png HTTP/1.1" 200 5432 "http://example.com/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+192.168.1.10 - - [24/Jul/2025:08:14:03 -0700] "POST /login HTTP/1.1" 302 421 "http://example.com/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
